@@ -22,6 +22,8 @@ L'application s'inscrit dans le domaine de la gestion de ressources partagées, 
 
 Ces choix techniques permettent un développement rapide, une maintenance facile et une expérience utilisateur fluide tout en maintenant une architecture simple adaptée à la taille du projet.
 
+- **Format JSON** : Utilisation de Prettier pour le formattage
+
 ## Installation et exécution
 
 1. **Cloner le dépôt**
