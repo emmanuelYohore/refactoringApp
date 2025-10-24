@@ -136,3 +136,8 @@ refactoringApp/
 - Annulation possible uniquement pour des réservations futures
 - Filtrage automatique des créneaux passés
 - Mode administrateur pour gérer l'ensemble des services et créneaux
+
+## Collaborateurs
+
+Emmanuel YOHORE
+Ronan DUPAS
