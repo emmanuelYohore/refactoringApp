@@ -8,7 +8,10 @@ export const useServiceStore = defineStore('service', () => {
   const reservations = ref([]);
 
   function addService(name, type, description, duration) {
-    const id = `svc_${Date.now().toString()}`;
+    const maxId = services.value.length > 0
+    ? Math.max(...services.value.map(s => parseInt(s.id.replace('svc_', '')) || 0))
+    : 0;
+    const id = `svc_${maxId + 1}`;
     services.value.push({
       id,
       name,
